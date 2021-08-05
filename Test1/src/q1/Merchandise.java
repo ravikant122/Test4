@@ -15,7 +15,7 @@ class SortByPrice implements Comparator<Merchandise>{
 
 	@Override
 	public int compare(Merchandise m1, Merchandise m2) {
-		return (int)(m2.getPrice()-m1.getPrice());
+		return Double.compare(m2.getPrice(), m1.getPrice());
 	}
 	
 }
