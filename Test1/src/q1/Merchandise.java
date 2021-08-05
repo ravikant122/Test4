@@ -53,7 +53,15 @@ public class Merchandise {
 
 	@Override
 	public String toString() {
-		return "Merchandise [itemId=" + itemId + ", quantity=" + quantity + ", price=" + price + "]";
+		StringBuilder s=new StringBuilder("");
+		s.append("Merchandise [ItemId = ");
+		s.append(itemId+" ,");
+		s.append("Quantity = ");
+		s.append(quantity+" ,");
+		s.append("Price = ");
+		s.append(price+"] ");
+		
+		return s.toString();
 	}
 	
 	
