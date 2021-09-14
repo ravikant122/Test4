@@ -1,0 +1,19 @@
+Problem with JDBC : 
+
+1. We have to write a lot of boilerplate code for even doing a simple operation.
+
+2. Also Portability is issue with JDBC becuase we have to change our sql statement for different vendors like mysql,sql.
+   
+3. Also the command for linux is differnet from windows. 
+
+Advantages with Hibernate : 
+1. Reduce a lot of boilerplate code.
+
+2. Caching support is there in hibernate.
+
+3. It hits the database in optimum way
+
+4. The query written is database independent unlike jdbc we just have to change the dialect in our hibernate configuration file.
+
+5. We have a concept of Lazy loading and Eager fetching which is very useful when the data size is in large quantity.for ex : 
+  if we just want to find all department id without fetching the employee information,then we can do it easily here.	
